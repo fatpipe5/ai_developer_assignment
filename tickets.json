@@ -1,0 +1,22 @@
+[
+  {
+    "id": "TICKET-001",
+    "text": "Production deployment of v2.4.1 failed at 03:12 UTC. The CI/CD pipeline reported a container crash loop on startup. Application is completely down for all users. On-call engineer has been paged but no fix yet."
+  },
+  {
+    "id": "TICKET-002",
+    "text": "Several users are reporting that the checkout page is taking over 30 seconds to load. The issue started around 14:00 UTC. Database query times look elevated in Grafana but the service is still responding. About 20% of users are affected."
+  },
+  {
+    "id": "TICKET-003",
+    "text": "New employee John Smith (john.smith@company.com) needs access to the internal HR portal and the read-only production database. His manager has already approved the request via the standard form."
+  },
+  {
+    "id": "TICKET-004",
+    "text": "A customer reported that their payment of $350 was charged twice for order #98234. They received two confirmation emails. The duplicate charge needs to be refunded and the root cause investigated before more customers are affected."
+  },
+  {
+    "id": "TICKET-005",
+    "text": "PagerDuty alert fired: CPU usage on app-server-03 has been above 90% for the last 15 minutes. Memory usage is normal. No user-facing errors reported yet but the trend is concerning."
+  }
+]

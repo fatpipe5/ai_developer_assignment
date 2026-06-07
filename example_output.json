@@ -1,0 +1,47 @@
+[
+  {
+    "ticket_id": "TICKET-001",
+    "result": {
+      "category": "Deployment",
+      "priority": "critical",
+      "summary": "Production deployment of v2.4.1 failed with a container crash loop on startup",
+      "recommended_action": "Have the on-call engineer review and apply a fix to resolve the issue as soon as possible"
+    }
+  },
+  {
+    "ticket_id": "TICKET-002",
+    "result": {
+      "category": "Performance",
+      "priority": "medium",
+      "summary": "Checkout page taking over 30 seconds to load",
+      "recommended_action": "Monitor database query times and investigate if there are any issues with database performance or server configuration."
+    }
+  },
+  {
+    "ticket_id": "TICKET-003",
+    "result": {
+      "category": "Access Request",
+      "priority": "medium",
+      "summary": "Employee John Smith needs access to the internal HR portal and the read-only production database.",
+      "recommended_action": "Verify that the access request has been approved through the standard form and proceed with granting access."
+    }
+  },
+  {
+    "ticket_id": "TICKET-004",
+    "result": {
+      "category": "Billing",
+      "priority": "high",
+      "summary": "Duplicate payment charge on order #98234",
+      "recommended_action": "Refund the duplicate charge and investigate the root cause"
+    }
+  },
+  {
+    "ticket_id": "TICKET-005",
+    "result": {
+      "category": "Performance",
+      "priority": "medium",
+      "summary": "CPU usage on app-server-03 is above 90%",
+      "recommended_action": "Investigate and address high CPU usage on app-server-03 to prevent potential impact on service performance"
+    }
+  }
+]
